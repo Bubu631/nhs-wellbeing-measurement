@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "name": "figures",
+  "purpose": "Regenerate manuscript figures and tables from included result CSVs",
+  "historical_provenance": "Added as a standalone execution wrapper; original runs are documented by preserved protocols/manifests, not these JSON profiles.",
+  "output_warning": "Replaces generated manuscript figures and tables; does not rerun the statistical experiments.",
+  "commands": [
+    {
+      "cwd": ".",
+      "argv": [
+        "{python}",
+        "experiments/report.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "name": "smoke",
+  "purpose": "Small entry-point check under separate filenames",
+  "historical_provenance": "Added as a standalone execution wrapper; original runs are documented by preserved protocols/manifests, not these JSON profiles.",
+  "output_warning": "Writes *_local_check outputs and provenance snapshots; these are not manuscript results.",
+  "commands": [
+    {
+      "cwd": ".",
+      "argv": [
+        "{python}",
+        "experiments/synthetic.py",
+        "--smoke",
+        "--reps",
+        "20",
+        "--output",
+        "synthetic_local_check"
+      ]
+    },
+    {
+      "cwd": ".",
+      "argv": [
+        "{python}",
+        "experiments/replay.py",
+        "--smoke",
+        "--reps",
+        "20",
+        "--output",
+        "replay_local_check"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "name": "exploratory",
+  "purpose": "Post-primary budget extension and independent saved-array validation",
+  "historical_provenance": "Added as a standalone execution wrapper; original runs are documented by preserved protocols/manifests, not these JSON profiles.",
+  "output_warning": "Full 500-repetition exploratory extension; replaces extension outputs and can use up to the declared 2 GB process-memory bound.",
+  "commands": [
+    {
+      "cwd": ".",
+      "argv": [
+        "{python}",
+        "experiments/replay_budget_extension.py"
+      ]
+    },
+    {
+      "cwd": ".",
+      "argv": [
+        "{python}",
+        "experiments/verify_budget_extension.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "name": "prior_analysis",
+  "purpose": "Both preserved predecessor backtests from their prepared CSV inputs",
+  "historical_provenance": "Added as a standalone execution wrapper; original runs are documented by preserved protocols/manifests, not these JSON profiles.",
+  "output_warning": "Replaces predecessor harmonised and vintage results; does not run its full simulation.",
+  "commands": [
+    {
+      "cwd": "prior_study",
+      "argv": [
+        "{python}",
+        "experiments/empirical.py"
+      ]
+    },
+    {
+      "cwd": "prior_study",
+      "argv": [
+        "{python}",
+        "experiments/vintage_empirical.py"
+      ]
+    }
+  ]
+}

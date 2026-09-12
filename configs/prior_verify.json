@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "name": "prior_verify",
+  "purpose": "Preserved predecessor theory and empirical checks",
+  "historical_provenance": "Added as a standalone execution wrapper; original runs are documented by preserved protocols/manifests, not these JSON profiles.",
+  "output_warning": "Writes predecessor audit JSON files; use a separate copy to preserve delivered audit bytes.",
+  "commands": [
+    {
+      "cwd": "prior_study",
+      "argv": [
+        "{python}",
+        "experiments/theory_checks.py"
+      ]
+    },
+    {
+      "cwd": "prior_study",
+      "argv": [
+        "{python}",
+        "experiments/verify_empirical.py"
+      ]
+    }
+  ]
+}

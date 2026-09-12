@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this preserved predecessor when using its ranking-sensitivity analysis, together with the original NHS Staff Survey sources."
+title: "Before You Target: Ranking Sensitivity and Regression to the Mean in NHS Staff Wellbeing Data"
+type: manuscript
+authors:
+  - family-names: Zhang
+    given-names: Shengwei
+    affiliation: University of Pennsylvania
+repository-code: "https://github.com/Bubu631/nhs-wellbeing-measurement"
+url: "https://github.com/Bubu631/nhs-wellbeing-measurement/tree/main/prior_study"
+version: 1.0.0

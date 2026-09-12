@@ -1,0 +1,7 @@
+# Preserve delivered bytes, including source/result files whose SHA-256 is recorded.
+* -text
+*.pdf binary
+*.xlsx binary
+*.npz binary
+*.png binary
+*.zip binary

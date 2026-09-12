@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "name": "verify",
+  "purpose": "Independent theory, implementation and saved extension checks",
+  "historical_provenance": "Added as a standalone execution wrapper; original runs are documented by preserved protocols/manifests, not these JSON profiles.",
+  "output_warning": "Writes audit JSON files; run in a separate copy to preserve delivered audit bytes.",
+  "commands": [
+    {
+      "cwd": ".",
+      "argv": [
+        "{python}",
+        "experiments/verify_theory.py"
+      ]
+    },
+    {
+      "cwd": ".",
+      "argv": [
+        "{python}",
+        "experiments/verify_allocation.py"
+      ]
+    },
+    {
+      "cwd": ".",
+      "argv": [
+        "{python}",
+        "experiments/verify_implementation.py"
+      ]
+    },
+    {
+      "cwd": ".",
+      "argv": [
+        "{python}",
+        "experiments/verify_budget_extension.py"
+      ]
+    }
+  ]
+}

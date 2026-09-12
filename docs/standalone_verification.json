@@ -1,0 +1,144 @@
+{
+  "checked_at_utc": "2026-09-12T22:25:37.345100+00:00",
+  "scope": "Standalone packaging and bounded offline checks in a disposable copy; original scientific runs preserved.",
+  "original_staged_files": 311,
+  "byte_identical_original_files": 300,
+  "protected_scientific_files_byte_identical": 263,
+  "intended_tooling_or_documentation_changes": [
+    {
+      "path": ".gitignore",
+      "before_sha256": "d8d6552583aaf6a10f1efcd0cdc1d384039d58ce65c6ae6c12792139152f22bb",
+      "after_sha256": "c118b4c85c93a053b7083bead91cda2eaeed6c9713380973abe0b7dfa391e274"
+    },
+    {
+      "path": "CITATION.cff",
+      "before_sha256": "48367f6fc11fb4d71749898d7b54e642903a49261cd9bf2a93d7441ed407c6f4",
+      "after_sha256": "fd07b2004fdcba8adac3c7c4fb9eddb03c0406d8bc960621e753189179974115"
+    },
+    {
+      "path": "Makefile",
+      "before_sha256": "8ef8da5aec5f8e383dc4dca767b254e823e96f8e611a039b38ee02ad3dbdab02",
+      "after_sha256": "29aa3fda29854a2fc402ade3916c24034274459f2073dab3bcdee4c61d3a6475"
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "132879f8ff7b0b894e1a39e87c88bc6b2cbb4a7c3c15739ce26d19f8ea553484",
+      "after_sha256": "589feabc3a55d4e22de27543bca95fc7e29e5d78a46ff261561c879496bbc870"
+    },
+    {
+      "path": "artifact_tools/package_release.py",
+      "before_sha256": "e628de8d756a2ad1a3e8c33156e86ff297db373afc523def897066931c770bc1",
+      "after_sha256": "fbfdfd6b218c4c43829e5ab3681f2955d3fb96c13b024a7606ec4cae03631005"
+    },
+    {
+      "path": "docs/github_content_audit.md",
+      "before_sha256": "37138a1c8c2cd86a9d39ad531862a28e8f402a5966738a7e847b1e6588c2d20b",
+      "after_sha256": "9b196a0c28666235dcc2df4f982a1f5d5e41f1551e0c05c8546c8c78f5d365b4"
+    },
+    {
+      "path": "docs/upgrade_summary_zh.md",
+      "before_sha256": "c24a28cd38e87553fa9fb63505805427951c14800f3fb9dd0e24c9a4278be090",
+      "after_sha256": "b8278330be6edf028ffc3d20951c53e40722961fa76c15ab3a11e7ecdc7b8589"
+    },
+    {
+      "path": "prior_study/README.md",
+      "before_sha256": "32d5763f8045937a8e4c21214aa9430584a712e2db349ee10f14d6c1555f8b8c",
+      "after_sha256": "cf4ce468784b047817c0a26e214797715f22b5633c6df0f13a3c314beb8d3660"
+    },
+    {
+      "path": "prior_study/artifact_tools/build_release.py",
+      "before_sha256": "29def309fb4bdc9ccaa374e35e8396b18621cde0753452ac0e6009ae2cd48a82",
+      "after_sha256": "83d781b168503e1efb4daebdee3bd62258d0043bb0268878120a1363ff0f9d32"
+    },
+    {
+      "path": "prior_study/artifact_tools/build_results.mjs",
+      "before_sha256": "0043c1ddffc963db8576a70823ed0a5c54d18f243673ecd622fd78bee1955195",
+      "after_sha256": "f0bfd0de3b74adb7515e67f5db75237ca64cdb1eece6ee721bff0201e292503e"
+    },
+    {
+      "path": "prior_study/artifact_tools/verify_results.py",
+      "before_sha256": "b2e0ac80e0352d995144282308fe52b886d6da3fdaf70426b00802ad56a28028",
+      "after_sha256": "ed584ff9b8e91e1a5a39f355f968ba674203ddb455b0eacb28d674c044dd8792"
+    }
+  ],
+  "missing_original_files": [],
+  "new_files": [
+    ".gitattributes",
+    "CITATION.bib",
+    "configs/exploratory.json",
+    "configs/figures.json",
+    "configs/primary.json",
+    "configs/prior_analysis.json",
+    "configs/prior_verify.json",
+    "configs/smoke.json",
+    "configs/verify.json",
+    "docs/standalone_migration_source_manifest.json",
+    "docs/standalone_repository.md",
+    "docs/standalone_verification.json",
+    "prior_study/CITATION.cff",
+    "scripts/run_profile.py"
+  ],
+  "python_ast_files_passed": 106,
+  "profiles": {
+    "exploratory": {
+      "commands": 2,
+      "dry_run": "passed"
+    },
+    "figures": {
+      "commands": 1,
+      "dry_run": "passed"
+    },
+    "primary": {
+      "commands": 3,
+      "dry_run": "passed"
+    },
+    "prior_analysis": {
+      "commands": 2,
+      "dry_run": "passed"
+    },
+    "prior_verify": {
+      "commands": 2,
+      "dry_run": "passed"
+    },
+    "smoke": {
+      "commands": 2,
+      "dry_run": "passed"
+    },
+    "verify": {
+      "commands": 4,
+      "dry_run": "passed"
+    }
+  },
+  "actual_disposable_copy_checks": {
+    "verify_profile": "passed, all four existing verifiers",
+    "prior_verify_profile": "passed, both existing verifiers",
+    "smoke_profile": "passed, 20-repetition separate-output synthetic/replay checks",
+    "main_implementation_protected_files_unchanged": true,
+    "prior_empirical_status": "passed",
+    "prior_empirical_numeric_checks": 1528,
+    "main_workbook_source_cells": 186830,
+    "main_workbook_formula_cells": 477,
+    "main_workbook_cached_values_checked": true,
+    "prior_workbook_scientific_cells": 30891,
+    "package_builder": "passed, all members byte-verified in disposable copy",
+    "package_asset_count_including_manifest_and_checksums": 12
+  },
+  "environment": {
+    "python": "3.13.1",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.5",
+    "openpyxl": "3.1.5",
+    "note": "NumPy/SciPy from existing stable runtime; pandas/openpyxl and small dependencies installed into repository-ignored QA directory only; no shared dependency upgrades. Workbook-only checks used bundled openpyxl 3.1.5."
+  },
+  "not_rerun": [
+    "full primary grid",
+    "full exploratory grid",
+    "full predecessor simulations",
+    "new TeX compilation",
+    "source network retrieval"
+  ],
+  "default_actions_no_scientific_execution": true,
+  "no_git_commit_or_publication_performed": true,
+  "local_markdown_links_checked": 54
+}
