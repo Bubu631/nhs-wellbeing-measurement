@@ -13,7 +13,6 @@ This is the preserved first study in the NHS wellbeing research line. The follow
 - [Full manuscript (PDF)](paper/main.pdf) and [LaTeX source](paper/main.tex).
 - [Results workbook](artifacts/nhs_wellbeing_results.xlsx), [harmonised results](results/harmonised/test_metrics.csv) and [historical-vintage results](results/vintage/test_metrics.csv).
 - [Analysis protocol](docs/analysis_protocol.md), [data dictionary](data/processed/data_dictionary.json) and [independent empirical checks](docs/empirical_independent_audit.md).
-- [中文说明](docs/第三篇论文说明.md).
 
 ## Scientific question
 
@@ -113,7 +112,7 @@ data/source_manifest.json
                        Official source URLs, access times, hashes and rights status
 vintage_data/          Archive-retrieval/parsing code, manifests and prepared vintage CSVs
 results/               Executed scientific result tables and run/audit manifests
-docs/                  Protocol, source/theory/literature audits and Chinese explanation
+docs/                  Protocol and source documentation
 artifact_tools/        Optional supporting-workbook builder and saved-file verification
 artifacts/             Supporting XLSX included by the code-archive packager
 ```
@@ -121,9 +120,5 @@ artifacts/             Supporting XLSX included by the code-archive packager
 Large raw caches, generated Python environments, local dependency links and preview images are not required in a public source archive. The prepared CSVs and provenance enable inspection without silently treating raw source materials as newly licensed content.
 
 `artifact_tools/build_release.py` preserves the original release-packaging workflow. Its adapted output directory is `prior_study/output/release/` inside this repository, and it reads the included workbook from `artifacts/`. It is not part of the commands needed to reproduce the scientific analysis. The root packager also includes this entire study and produces its paper/source assets without rebuilding the original analysis. The files linked above can be read directly from this checkout.
-
-## AI assistance and author responsibility
-
-AI tools assisted with literature discovery, source retrieval, coding, mathematical review, writing and reproducibility checks. Automated results were compared with source records and independently implemented calculations where documented. Shengwei Zhang is the named author and remains responsible for the research claims, source attribution, code, data interpretation and any eventual submission. AI assistance and successful automated checks do not establish independent human scientific review, publisher acceptance or institutional endorsement.
 
 Standalone relocation preserves the historical experiment sources and result hashes. Only documentation and optional artifact tooling were adapted; details are in the root [migration audit](../docs/standalone_repository.md). Cite this study using [CITATION.cff](CITATION.cff).

@@ -220,13 +220,6 @@
     },
     {
       "original_project": "nhs_aisi_research",
-      "original_relative_path": "docs/domain_and_aisi.md",
-      "repository_path": "docs/domain_and_aisi.md",
-      "sha256": "67625d410bcb2ec4c13f8ebef09ce87fc09b554ba882741f50c58b4c27cb2450",
-      "bytes": 14941
-    },
-    {
-      "original_project": "nhs_aisi_research",
       "original_relative_path": "docs/domain_and_aisi_references.bib",
       "repository_path": "docs/domain_and_aisi_references.bib",
       "sha256": "4f72a2881f7ffd0e85af66abada43433b870948de07b419711870b6a65c3107f",
@@ -238,27 +231,6 @@
       "repository_path": "docs/domain_source_audit.json",
       "sha256": "5b508589ff9760e75a69bf4d68bfd10842be461017593bc94588ef4e9385e340",
       "bytes": 1765
-    },
-    {
-      "original_project": "nhs_aisi_research",
-      "original_relative_path": "docs/github_content_audit.md",
-      "repository_path": "docs/github_content_audit.md",
-      "sha256": "37138a1c8c2cd86a9d39ad531862a28e8f402a5966738a7e847b1e6588c2d20b",
-      "bytes": 6131
-    },
-    {
-      "original_project": "nhs_aisi_research",
-      "original_relative_path": "docs/implementation_audit.md",
-      "repository_path": "docs/implementation_audit.md",
-      "sha256": "9861b21756714181e37ea08fe757b28ef00868e4e9375e730d9933cf714a9f83",
-      "bytes": 12583
-    },
-    {
-      "original_project": "nhs_aisi_research",
-      "original_relative_path": "docs/manuscript_audit.md",
-      "repository_path": "docs/manuscript_audit.md",
-      "sha256": "32c929148bc85298086427f7ba434c372e18cec4512cb1ddd233a0cef37ed75f",
-      "bytes": 13073
     },
     {
       "original_project": "nhs_aisi_research",
@@ -294,20 +266,6 @@
       "repository_path": "docs/reproduction_audit.md",
       "sha256": "d15e7bc6260839077d7c99a8f1940c08fad07475e4c900f899c77c5ef8cfd44c",
       "bytes": 3724
-    },
-    {
-      "original_project": "nhs_aisi_research",
-      "original_relative_path": "docs/theory_prior_art.md",
-      "repository_path": "docs/theory_prior_art.md",
-      "sha256": "f759cdfc757e93b91ac5e788040808727ff22bd7efed24d66f5e3503cdad786e",
-      "bytes": 22580
-    },
-    {
-      "original_project": "nhs_aisi_research",
-      "original_relative_path": "docs/upgrade_summary_zh.md",
-      "repository_path": "docs/upgrade_summary_zh.md",
-      "sha256": "c24a28cd38e87553fa9fb63505805427951c14800f3fb9dd0e24c9a4278be090",
-      "bytes": 3900
     },
     {
       "original_project": "nhs_aisi_research",
@@ -1501,24 +1459,10 @@
     },
     {
       "original_project": "nhs_wellbeing_research",
-      "original_relative_path": "docs/theory_audit.md",
-      "repository_path": "prior_study/docs/theory_audit.md",
-      "sha256": "bd93cfd8f031342b8d48912a431387de5a79d8469e7d821dc0048ac6626b4e3c",
-      "bytes": 25986
-    },
-    {
-      "original_project": "nhs_wellbeing_research",
       "original_relative_path": "docs/vintage_audit.md",
       "repository_path": "prior_study/docs/vintage_audit.md",
       "sha256": "584818c6ef2fea6bfbd92afdaa2b889fb30ed2310b220cdd481dac1ef26ef9e8",
       "bytes": 12371
-    },
-    {
-      "original_project": "nhs_wellbeing_research",
-      "original_relative_path": "docs/\u7b2c\u4e09\u7bc7\u8bba\u6587\u8bf4\u660e.md",
-      "repository_path": "prior_study/docs/\u7b2c\u4e09\u7bc7\u8bba\u6587\u8bf4\u660e.md",
-      "sha256": "64ef4b2e722e10f64adc41b839a014664218665e959b6f862588bbfd8a554ce5",
-      "bytes": 6678
     },
     {
       "original_project": "nhs_wellbeing_research",
